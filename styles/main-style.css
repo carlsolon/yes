@@ -1,0 +1,448 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: linear-gradient(76deg, rgba(0, 33, 113, 1) 0%, rgba(25, 118, 210, 1) 19%, rgba(187, 222, 251, 1) 42%, rgba(102, 102, 102, 1) 75%, rgba(255, 255, 255, 1) 100%);
+    background-attachment: fixed;
+    background-image: url(../images/home/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.wrapper {
+    background-color: transparent;
+    max-width: 90%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.17);
+}
+
+header {
+    background-position: right;
+    height: 72px;
+    color: #fff;
+    display: inline;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 0.5em;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    font-size: 3em;
+}
+
+header nav {
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    z-index: 1000;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    background-color: #3c3d3d;
+    border-radius: 14px;
+}
+
+header nav a:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #0a82c3;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+.homehero {
+    height: 300px;
+    background-image: url(../images/home/hero.jpg);
+    background-size: cover;
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+main {
+    padding: 0.5em 2em 0.5em 2em;
+    color: #fff;
+}
+.this{
+    text-align: center;
+    backdrop-filter: blur(8px);
+    font-size: 42px;
+}
+.visit{
+    backdrop-filter: blur(8px);
+    font-size: 30px;
+}
+.p{
+    text-align: center;
+    font-size: 2em;
+    backdrop-filter: blur(20px);
+    border: #fff solid 5px;
+}
+.new{
+    padding: 1em;
+    font-size: 28px;
+    
+}
+.wow{
+    text-align: center;
+    font-size: 34px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 1.5em;
+    backdrop-filter: blur(20px);
+    /* border: #fff solid 5px;  */
+}
+.hays{
+    height: 50%;
+    width: 70%;
+    background-color: #fff;
+    
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styles for card */
+.card-one {
+    width: calc(25% - 20px); /* Adjust according to your design */
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.card-one img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-title-one {
+    text-align: center;
+}
+
+  
+footer {
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em;
+    color: #fff;
+}
+footer p{
+    color: #fff;
+    
+}
+
+.listing {
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+}
+
+.card {
+    border-radius: 14px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    max-width: 300px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    overflow: hidden;
+    text-align: center;
+    font-size: 8px;
+}
+.card:hover {
+    background-image: url(/images/home/back1.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    font-size: 2em;
+
+}
+
+.card img {
+    width: 100%;
+    max-height:166px;
+    object-fit: cover;
+    object-position: 0% center;
+}
+
+.card-title {
+    padding: 0.5em 1.3em 0.5em 0.7em;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.card-title a {
+    color: #c7ecff;
+    text-decoration: none;
+}
+
+/* card new */
+.listing-new {
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: transparent;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+
+.card-new {
+    border-radius: 14px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    max-width: 700px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    overflow: hidden;
+    text-align: center;
+    font-size: 8px;
+}
+
+
+.card:hover {
+    background-image: url(/images/home/back1.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+
+}
+
+.card-new img {
+    width: 100%;
+    max-height:166px;
+    object-fit: cover;
+    object-position: 0% center;
+}
+
+.para{
+    background-color: gray;
+    font-size: 1.2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.duha{
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+.location{
+    text-align: center;
+}
+.location h1{
+    font-size: 35px;
+    backdrop-filter: blur(4px);
+}
+.let{
+    font-size: 40px;
+    backdrop-filter: blur(4px);
+}
+
+/* another card */
+.div1{
+    background-color: transparent;
+    width: 40%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+}
+.image-container {
+    text-align: center;
+    backdrop-filter: blur(1px);
+}
+
+.image-container img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5em;
+    backdrop-filter: blur(1px);
+    margin-left: 10em;
+    
+}
+
+/* DIV2 */
+.div2{
+    background-color: transparent;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+    display: block;
+}
+.div3{
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    float: right;
+    /* margin-left: auto;
+    margin-right: auto; */
+    backdrop-filter: blur(4px);
+    display: block;
+    text-align: left;
+    font-size: 30px;
+}
+/* Footer */
+.main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.tunga {
+    display: flex;
+    align-items: center;
+}
+
+.div1 {
+    flex: 0 0 auto;
+}
+
+.div3 {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.image-container img {
+
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.div2 {
+    /* Add styles for div2 as needed */
+}
+/* TRy dddddddddddddddddddddddddddddddddddddd */
+
+.container {
+    display: flex;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    font-size: 40px;
+    
+    
+}
+
+.left-column {
+    flex: 1; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    
+
+}
+
+.left-column {
+    background-color: transparent; 
+}
+
+.right-column {
+    background-color: transparent; 
+}
+/* CArd ONE */
+
+
+
+
+.card-one {
+    border-radius: 14px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    max-width: 300px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    overflow: hidden;
+    text-align: center;
+    font-size: 8px;
+}
+.card-one img {
+    width: 100%;
+    max-height:166px;
+    object-fit: cover;
+    object-position: 0% center;
+    
+}
+.card-one:hover {
+    background-image: url(/images/home/back1.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+
+}
+.card-title-one {
+    padding: 0.5em 1.3em 0.5em 0.7em;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.card-title-one a {
+    color: #c7ecff;
+    text-decoration: none;
+}
+
+
+/* end of card one */
+
+
+.card-body {
+    padding: 0px 1.3em 1.3em 1.3em;
+    height: 150px;
+    overflow: auto;
+    color: #fffcfc;
+}
+.card-body p:hover{
+    font-size: 20px;
+}
+.card p {
+    display: inline;
+}
+.card p:hover{
+    font-size: 5em;
+}
+/* Para sa cellphone */
+@media only screen and (max-width: 620px) {
+    header {
+        background-image: none;
+        height: 72px;
+        background-color: #06226c;
+        color: #FFFFFF;
+    }
+    .wrapper {
+        background-color: #FFFFFF;
+        max-width: 100%;;
+        box-shadow: none;
+    }
+    li{
+        list-style: none;
+        display: block;
+    }
+    nav a {
+        text-decoration: none;
+        padding: 0.1em 0em 0.1em 0em;
+        display: block;
+        font-size: 2em;
+        position: fixed;
+        
+    }
+    .desktop{
+        display: none;
+    }
+
+}
